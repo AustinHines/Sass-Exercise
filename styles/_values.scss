@@ -1,0 +1,23 @@
+$brown1: #964b00;
+
+%center {
+    text-align: center;
+    padding: 20px;
+}
+
+@mixin flex ($justify, $align){
+    .main h1 {
+        padding: 0;
+        margin: 0;
+
+    }
+    .main h2 {
+        text-align: center;
+    }
+    
+    .main h3 {
+    text-align: right;
+    }
+
+
+}
